@@ -21,7 +21,7 @@ class pageController extends Controller
         $saveinfo->Gmail=$respuestas->Gmail;
         $saveinfo->save();
    
-        return redirect()->route('cursos.show',$saveinfo);
+        return $saveinfo;
 
     }
 
