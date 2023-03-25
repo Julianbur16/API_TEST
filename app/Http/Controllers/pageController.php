@@ -27,7 +27,7 @@ class pageController extends Controller
 
     public function show($id){
         $curso=estudiante::find($id);
-        return view('cursos/show',['curso' => $curso]);
+        return $curso;
     }
 
     public function edit($id){
