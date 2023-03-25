@@ -1,7 +1,7 @@
 @extends('Layauts/plantilla')
 @section('title','documento index')
 @section('subtitle')
-<h1> los Registros son:</h1><br>
+<h1> los Registros en la bese de datos son:</h1><br>
 <h2><a href="{{route('cursos.create')}}">Crear un Gmail</a></h2><br>
 <table border="1">
     <tr>
