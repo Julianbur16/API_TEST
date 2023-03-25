@@ -17,6 +17,7 @@ class pageController extends Controller
     }
 
     public function store(Request $respuestas){
+        
         $saveinfo=new estudiante();
         $saveinfo->Gmail=$respuestas->Gmail;
         $saveinfo->save();
